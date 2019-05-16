@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JondeUtilKit_Example' do
+  pod 'JondeUtilKit', :path => '../'
+
+  target 'JondeUtilKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
