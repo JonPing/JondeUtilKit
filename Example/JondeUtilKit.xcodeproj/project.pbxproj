@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1D2B9D102EB9B51A3C6628BC /* Pods-JondeUtilKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JondeUtilKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JondeUtilKit_Example/Pods-JondeUtilKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		38CFA5C22C53AEC32F63BF3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		38CFA5C22C53AEC32F63BF3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F1C8ED089A56E7B56D3887D /* Pods-JondeUtilKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JondeUtilKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JondeUtilKit_Example/Pods-JondeUtilKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F6CA622D81F9764E0C5D947 /* Pods-JondeUtilKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JondeUtilKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JondeUtilKit_Tests/Pods-JondeUtilKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5939639B4B74FB4DD76CE946 /* Pods-JondeUtilKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JondeUtilKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JondeUtilKit_Tests/Pods-JondeUtilKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		876A1B9BDE838F0704D44C79 /* Pods_JondeUtilKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JondeUtilKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		997306892E4F510BB99BD64B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E3E8A812ADE67BCB5B6A6567 /* JondeUtilKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JondeUtilKit.podspec; path = ../JondeUtilKit.podspec; sourceTree = "<group>"; };
+		997306892E4F510BB99BD64B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3E8A812ADE67BCB5B6A6567 /* JondeUtilKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JondeUtilKit.podspec; path = ../JondeUtilKit.podspec; sourceTree = "<group>"; };
 		F0AAECA107DBBE8072A99F45 /* Pods_JondeUtilKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JondeUtilKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E8078A0C3122E453D519E8F0 /* [CP] Embed Pods Frameworks */,
+				EF610FA655CAC2CBF368A566 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = JonPing;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9K2NLGYYQN;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -330,7 +333,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E8078A0C3122E453D519E8F0 /* [CP] Embed Pods Frameworks */ = {
+		EF610FA655CAC2CBF368A566 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,12 +488,15 @@
 			baseConfigurationReference = 3F1C8ED089A56E7B56D3887D /* Pods-JondeUtilKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9K2NLGYYQN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JondeUtilKit/JondeUtilKit-Prefix.pch";
 				INFOPLIST_FILE = "JondeUtilKit/JondeUtilKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.JondeUtilKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +506,15 @@
 			baseConfigurationReference = 1D2B9D102EB9B51A3C6628BC /* Pods-JondeUtilKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9K2NLGYYQN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JondeUtilKit/JondeUtilKit-Prefix.pch";
 				INFOPLIST_FILE = "JondeUtilKit/JondeUtilKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.JondeUtilKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

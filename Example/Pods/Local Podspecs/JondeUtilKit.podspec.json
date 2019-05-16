@@ -1,0 +1,22 @@
+{
+  "name": "JondeUtilKit",
+  "version": "0.1.0",
+  "summary": "A short description of JondeUtilKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JonPing/JondeUtilKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JonPing": "794146132@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/JonPing/JondeUtilKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JondeUtilKit/Classes/**/*"
+}

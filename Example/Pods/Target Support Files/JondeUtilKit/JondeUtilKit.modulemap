@@ -1,0 +1,6 @@
+framework module JondeUtilKit {
+  umbrella header "JondeUtilKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

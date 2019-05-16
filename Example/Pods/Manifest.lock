@@ -1,0 +1,16 @@
+PODS:
+  - JondeUtilKit (0.1.0)
+
+DEPENDENCIES:
+  - JondeUtilKit (from `../`)
+
+EXTERNAL SOURCES:
+  JondeUtilKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JondeUtilKit: c8d00ecf5d4f6b303de18d08d29437420517893c
+
+PODFILE CHECKSUM: 520601bf656ae5ddac15335ea5628685ed799628
+
+COCOAPODS: 1.5.3
